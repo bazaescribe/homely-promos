@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900&display=swap");
+body {
+  font: 100% "Source Sans Pro", Helvetica, sans-serif;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 92px;
+  font-weight: black;
+  margin: 24px 0px;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: black;
+  margin: 24px 0px;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: black;
+  margin: 24px 0px;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 24px 0px;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 24px 0px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 24px 0px;
+}
+
+.caption {
+  font-size: 14px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.a-btn {
+  padding: 16px 32px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0px solid white;
+}
+
+.-btn-cta {
+  background: #5F48F6;
+  color: white;
+}
+
+.a-logo {
+  width: 140px;
+}
+
+.a-thumbnail {
+  width: 100%;
+  height: 350px;
+  background: lightpink;
+  box-shadow: 2px 12px 24px -16px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a-thumbnail img {
+  width: 100%;
+}
+
+.o-hero {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 66% 34%;
+}
+.o-hero .m-content {
+  background: white;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.o-hero .m-content .text {
+  padding-bottom: 64px;
+}
+.o-hero .photo {
+  background: lightcyan;
+  overflow: hidden;
+  text-align: center;
+}
+.o-hero .photo img {
+  height: 100%;
+}
+
+.o-block {
+  padding: 64px 48px;
+}
+
+.-highlight-block {
+  background: #eaf7ff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.o-footer {
+  background: #140E38;
+  padding: 32px 48px;
+  color: white;
+}
+
+.-thumb-left {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-gap: 48px;
+}
+
+.-thumb-right {
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  grid-gap: 48px;
+}
+
+.-darkOnWhite {
+  background: linear-gradient(#140E38 75%, white 75%);
+  color: white;
+}
+
+.-fancy {
+  background: -webkit-linear-gradient(90deg, #5F48F6, #2BEFB2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.o-contact{
+  background: blueviolet;
+}
+
+.o-contact input,label{
+  display: block;
+}
+
+.o-contact label{
+  font-size: 12px;
+  color: #3f444c;
+  margin-bottom: 8px;
+}
+
+.o-contact input{
+  border-radius: 4px;
+  background: #eaeaea;
+  font-size: 16px;
+  padding: 8px;
+  border: 0px solid red;
+  margin-bottom: 16px;
+}
+
+/*# sourceMappingURL=output.css.map */
